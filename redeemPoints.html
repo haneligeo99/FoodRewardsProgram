@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+	<title>Redeem Points</title>
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<html>
+<body style = "font-family: Candara">
+
+<h1 style="text-align:center;"><img src="foodicon.jpeg" alt="plate icon" class="right" width = "50" height = "50">&nbsp; Redeem Points for Food! &nbsp;<img src="foodicon.jpeg" alt="plate icon" class="right" width = "50" height = "50"></h1>
+
+<br>
+
+<img src="burger.jpeg" alt="Yum Burger" class="right" width = "250" height = "250">
+<img src="pizza.jpeg" alt="Oooh Pizza!" class="right" width = "280" height = "280">
+<img src="salad.jpeg" alt="healthy salad!" class="right" width = "200" height = "200">
+
+<br>
+
+<h3> For every food item redeemed, additional points are awarded!! Check out the menu below:</h3><br>
+
+<p>Cheeseburger - Cost: 50 points - Gain 35 points! <br> Pizza - Cost: 45 points - Gain 25 points! <br> Salad - Cost: 40 points. Gain 25 points! <br> Daily Special - Cost: 75 points - Gain 35 points!<br>(Check with the kitchen to find out today's special)</p>
+
+<br><br> 
+
+<h4>Enter RewardsNo, choose a food item, and the hit submit!</h4><br>
+<form action="redeemPoints.php" method="post">
+	RewardsNo: <input type="text" name="rewardsNo"><br>
+	Food Options: <select name ="food">
+		<option value = "1">Cheeseburger</option>
+		<option value = "2">Pizza</option>
+		<option value = "3">Salad</option>
+		<option value = "4">Daily Special</option>
+	<br><br><input type="submit">
+</form>
+
+<br><br>
+<a href="managePoints.html">Back to Manage Points</a> <br>
+<a href="indexx.html">Back to Main Menu</a>
+
+</body>
+</html>
+
